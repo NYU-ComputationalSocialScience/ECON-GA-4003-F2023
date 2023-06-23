@@ -1,0 +1,320 @@
+name: 'Data Skills for Computational Social Science'
+number: 'ECON-GA-4003'
+identifier: 'Fall 2023'
+offeringType: 'semester'
+startDate: '2023-09-05T00:00:00+00:00'
+endDate: '2023-12-15T00:00:00+00:00'
+lectures:
+  - title: Lecture 01
+    description: Pandas Introduction
+    path: lectures/L01_pandas_intro
+    availableAt: 2023-09-05T00:00:00-04:00
+    dueDate: 2023-09-07T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=rRR3oYHG_3U
+        title: Introduction to Pandas
+        description: 'Learn the core datatypes of pandas: DataFrame and Series'
+      - type: notebook
+        fileName: v01_pandas_intro.ipynb
+        title: v01_pandas_intro.ipynb
+        description: 'Learn the core datatypes of pandas: DataFrame and Series'
+      - type: video
+        url: https://www.youtube.com/watch?v=VPw5QG_8WwI
+        title: 'Pandas: Basic Functionality'
+        description: Learn data aggregation and transformation techniques
+      - type: notebook
+        fileName: v02_pandas_basics.ipynb
+        title: v02_pandas_basics.ipynb
+        description: Learn data aggregation and transformation techniques
+  - title: Lecture 02
+    description: Organizing Data in Pandas
+    path: lectures/L02_organizing_data_1
+    availableAt: 2023-09-12T00:00:00-04:00
+    dueDate: 2023-09-14T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=Be2z5CKlu18
+        title: The Index
+        description: Understand the importance and functionality of the index of a DataFrame or Series
+      - type: notebook
+        fileName: 01_the_index.ipynb
+        title: 01_the_index.ipynb
+        description: Learn about the index of a DataFrame or Series
+      - type: video
+        url: https://www.youtube.com/watch?v=2agIyguTWDA
+        title: 'Pandas: Storage Formats'
+        description: Learn about common data storage formats and how to interact with them in pandas
+      - type: notebook
+        fileName: 02_storage_formats.ipynb
+        title: 02_storage_formats.ipynb
+        description: Learn about common data storage formats and how to interact with them in pandas
+  - title: Lecture 03
+    description: Data Manipulation in Pandas
+    path: lectures/L03_organizing_data_2
+    availableAt: 2023-09-19T00:00:00-04:00
+    dueDate: 2023-09-21T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=PFumg74dIso
+        title: 'Data Cleaning in Pandas'
+        description: Learn how to deal with messy data in pandas
+      - type: notebook
+        fileName: v1_pandas_data_clean.ipynb
+        title: v1_pandas_data_clean.ipynb
+        description: Learn how to deal with messy data in pandas
+      - type: video
+        url: https://www.youtube.com/watch?v=svXlCneXIKc
+        title: 'Reshaping Data'
+        description: Learn the fundamental reshaping operations in pandas to get the data in just the right format
+      - type: notebook
+        fileName: v2_pandas_data_reshape.ipynb
+        title: v2_pandas_data_reshape.ipynb
+        description: Learn the fundamental reshaping operations in pandas to get the data in just the right format
+      - type: video
+        url: https://www.youtube.com/watch?v=47cvISFv9iw
+        title: 'Merging Datasets'
+        description: Learn about pandas' powerful merge and join functionality for combining multiple datasets
+      - type: notebook
+        fileName: v3_pandas_data_merge.ipynb
+        title: v3_pandas_data_merge.ipynb
+        description: Learn how to use pandas methods like concat, join, and merge to combine multiple datasets
+  - title: Lecture 04
+    description: Review
+    path: lectures/L04_pandas_review
+    availableAt: 2023-09-26T00:00:00-04:00
+    dueDate: 2023-09-28T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=mQH9kdyXN2c
+        title: 'Pandas Review: MovieLens'
+        description: Review of the pandas material covered so far by analyzing movie ratings data
+      - type: notebook
+        fileName: 01_pandas_example_movieLens.ipynb
+        title: 01_pandas_example_movieLens.ipynb
+        description: Explore a movie rating dataset with pandas
+      - type: video
+        url: https://www.youtube.com/watch?v=zlZ77INU3n8
+        title: 'Pandas Review: UN Population'
+        description: Review of the pandas material covered so far using UN population data
+      - type: notebook
+        fileName: 02_pandas_review_population.ipynb
+        title: 02_pandas_review_population.ipynb
+        description: Explore UN population data with pandas
+  - title: Lecture 05
+    description: Groupby operations with Pandas
+    path: lectures/L05_groupby
+    availableAt: 2023-10-03T00:00:00-04:00
+    dueDate: 2023-10-05T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=73R5pesuTbY
+        title: 'Groupby Operations'
+        description: Learn how to use the groupby method to perform powerful data aggregations
+      - type: notebook
+        fileName: 01_groupby.ipynb
+        title: 01_groupby.ipynb
+        description: Learn the split-aggregate-combine pattern for data analysis
+  - title: Lecture 06
+    description: APIs
+    path: lectures/L06_apis
+    availableAt: 2023-10-10T00:00:00-04:00
+    dueDate: 2023-10-12T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=8z9MhmPWQIA
+        title: Introduction to APIs
+        description: Learn what an API is and how to interact with one using Python
+      - type: notebook
+        fileName: 01_apis.ipynb
+        title: 01_apis.ipynb
+        description: Learn the basics of working with web APIs to obtain data
+      - type: video
+        url: https://www.youtube.com/watch?v=i94OQY8vvxI
+        title: Labor statistics
+        description: Learn about the key variables that describe the labor market
+      - type: notebook
+        fileName: 02_labor_statistics.ipynb
+        title: 02_labor_statistics.ipynb
+        description: Learn about a few key variables that describe the labor market
+      - type: video
+        url: https://www.youtube.com/watch?v=MiUSZr9_poQ
+        title: 'BLS API'
+        description: Learn how to use the BLS API to download labor statistics data
+      - type: notebook
+        fileName: 03_bls_api.ipynb
+        title: 03_bls_api.ipynb
+        description: Learn how to use the BLS API to download labor statistics data
+      - type: video
+        url: https://www.youtube.com/watch?v=LcOY1C1Kn4U
+        title: Labor Stats Exploration
+        description: Explore the labor statistics data using pandas
+      - type: notebook
+        fileName: 04_bls_exploration.ipynb
+        title: 04_bls_exploration.ipynb
+        description: Explore the labor statistics data using pandas
+  - title: Lecture 07
+    description: Data Visualization
+    path: lectures/L07_plotting
+    availableAt: 2023-10-17T00:00:00-04:00
+    dueDate: 2023-10-19T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=u9w-qp-_MWE
+        title: Plotting Introduction
+        description: Learn the fundamentals of data visualization
+      - type: notebook
+        fileName: v1_plotting_intro.ipynb
+        title: v1_plotting_intro.ipynb
+        description: Learn the fundamentals of data visualization
+      - type: video
+        url: https://www.youtube.com/watch?v=pJsjOBm6PVI
+        title: Data Viz Rules
+        description: Learn rules for creating effective data visualizations
+      - type: notebook
+        fileName: v2_visualization_rules.ipynb
+        title: v2_visualization_rules.ipynb
+        description: Practice using best pratices for data viz
+      - type: video
+        url: https://www.youtube.com/watch?v=L50TEMAE54U
+        title: Python Plotting Libraries
+        description: Learn about the most popular libraries for creating data visualizations in Python
+      - type: notebook
+        fileName: v3_plotting_libraries.ipynb
+        title: v3_plotting_libraries.ipynb
+        description: Hands on practice using plotting libraries in Python
+      - type: video
+        url: https://www.youtube.com/watch?v=MBiEcNWuy-M
+        title: Altair Library
+        description: Learn the basics of using the altair library for visualizing data
+      - type: notebook
+        fileName: v4_altair.ipynb
+        title: v4_altair.ipynb
+        description: Learn and practice using the Altair library to create web-friendly visualizations
+  - title: Lecture 08
+    description: Time Series Data with Pandas
+    path: lectures/L08_pandas_ts
+    availableAt: 2023-10-24T00:00:00-04:00
+    dueDate: 2023-10-26T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=Ej6HN9oD1gk
+        title: 'Time Series Data'
+        description: Learn how to work with time series data in pandas
+      - type: notebook
+        fileName: timeseries.ipynb
+        title: timeseries.ipynb
+        description: Learn the key time series funtionality provided by pandas
+  - title: Lecture 09
+    description: SQL Introduction
+    path: lectures/L09_sql
+    availableAt: 2023-10-31T00:00:00-04:00
+    dueDate: 2023-11-02T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=_XnHqgh8934
+        title: Instacart Data Description
+        description: Understand the structure of a grocery shopping dataset from Instacart
+      - type: notebook
+        fileName: 01_data_description.ipynb
+        title: 01_data_description.ipynb
+        description: Understand the structure of a grocery shopping dataset from Instacart
+      - type: video
+        url: https://www.youtube.com/watch?v=-mpsQYhRdfc
+        title: SQL By Example
+        description: Use the Instacart dataset to learn the basics of SQL
+      - type: notebook
+        fileName: 02_sql.ipynb
+        title: 02_sql.ipynb
+        description: Use the Instacart dataset to learn the basics of SQL
+  - title: Lecture 10
+    description: Markov Chains
+    path: lectures/L10_markov_chains
+    availableAt: 2023-11-07T00:00:00-04:00
+    dueDate: 2023-11-09T23:59:00-04:00
+    contents:
+      - type: notebook
+        fileName: finite_markov.ipynb
+        title: finite_markov.ipynb
+        description: QuantEcon lecture on Markov Chains
+      - type: video
+        url: https://www.youtube.com/watch?v=b_sBJzwmKFQ
+        title: Markov Chains 1
+        description: Introduction to Markov Chains (1/4)
+      - type: video
+        url: https://www.youtube.com/watch?v=RLRFg-IAFyo
+        title: Markov Chains 2
+        description: Introduction to Markov Chains (2/4)
+      - type: video
+        url: https://www.youtube.com/watch?v=-MoBx_5rFM0
+        title: Markov Chains 3
+        description: Introduction to Markov Chains (3/4)
+      - type: video
+        url: https://www.youtube.com/watch?v=m4Ij4Dd9myc
+        title: Markov Chains 4
+        description: Introduction to Markov Chains (4/4)
+      - type: notebook
+        fileName: chutes-ladders.ipynb
+        title: chutes-ladders.ipynb
+        description: Model the game of Chutes and Ladders using a Markov Chain
+  - title: Lecture 11
+    description: Lake Model of Unemployment
+    path: lectures/L11_lake_model
+    availableAt: 2023-11-14T00:00:00-04:00
+    dueDate: 2023-11-16T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=09uA4LsZKms
+        title: Lake Model of Unemployment
+        description: Learn how to model unemployment flows using a Markov Chain with the Lake Model
+      - type: notebook
+        fileName: v1_employment_model.ipynb
+        title: v1_employment_model.ipynb
+        description: Code to implement the Lake model of unemployment flows
+  - title: Lecture 12
+    description: Lake Model Meets Data
+    path: lectures/L12_lake_model_plus_data
+    availableAt: 2023-11-28T00:00:00-04:00
+    dueDate: 2023-11-30T23:59:00-04:00
+    contents:
+      - type: notebook
+        fileName: modeling_decisions.ipynb
+        title: modeling_decisions.ipynb
+        description: Use the lake model code and BLS data to estimate model parameters
+      - type: video
+        url: https://www.youtube.com/watch?v=mc0StBqQkLY
+        title: Lake Model Meets Data
+        description: Empirically estimate the Lake Model using data from the BLS
+      - type: video
+        url: https://www.youtube.com/watch?v=HYOEYY-0vLI
+        title: Lake Model Meets Data 2
+        description: More examples of using the Lake Model to analyze labor market flows
+  - title: Lecture 13
+    description: Sharing your work with others
+    path: lectures/L13_sharing_results
+    availableAt: 2023-12-05T00:00:00-04:00
+    dueDate: 2023-12-07T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=oc2a1pni8P0
+        title: Sharing Your Work
+        description: Learn how to share your work with others using various tools from the PyData ecosystem
+      - type: notebook
+        fileName: sharing-results.ipynb
+        title: sharing-results.ipynb
+        description: Practice using the tools from PyData ecosystem to share your results
+  - title: Lecture 14
+    description: Introduction to Web Scraping
+    path: lectures/L14_web_scraping
+    availableAt: 2023-12-12T00:00:00-04:00
+    dueDate: 2023-12-14T23:59:00-04:00
+    contents:
+      - type: video
+        url: https://www.youtube.com/watch?v=aYKF-qczV44
+        title: Web Scraping Introduction
+        description: Learn the basics of web scraping
+      - type: notebook
+        fileName: web-scraping.ipynb
+        title: web-scraping.ipynb
+        description: Practice scraping data from the web
+
